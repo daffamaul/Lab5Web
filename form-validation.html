@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Validation with Javascript</title>
+    <script src="./form-validation.js" defer></script>
   </head>
   <body>
     <h1>Form Validation with JavaScript</h1>
@@ -11,26 +12,15 @@
     <form>
       <fieldset>
         <legend>Input your identity</legend>
-
         <label for="name">Your full name : </label>
-        <input type="text" size="20" id="name" />
+        <input type="text" size="20" id="name" minlength="20"/>
         <br /><br />
         <label for="email">Email :</label>
-        <input type="email" size="20" id="email" />
+        <input type="email" size="20" id="email"/>
         <br /><br />
         <button type="submit" id="submit">Submit</button>
       </fieldset>
     </form>
-    <script defer>
-      const inputName = document.getElementById("name");
-      const email = document.getElementById("email");
-      inputName.addEventListener("input", (event) => {
-        if (inputName.validity.valueMissing) {
-          inputName.setCustomValidity("Diisi terleih dahulu");
-        } else {
-          inputName.setCustomValidity("");
-        }
-      });
     </script>
   </body>
 </html>
