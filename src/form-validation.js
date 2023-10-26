@@ -2,7 +2,9 @@ const email = document.getElementById("email");
 const names = document.getElementById("name");
 
 email.addEventListener("input", () => {
-  if (email.validity.typeMismatch) {
+  if (email.value === "") {
+    email.setCustomValidity("please input your email");
+  } else if (email.validity.typeMismatch) {
     email.setCustomValidity("email not valid");
   } else {
     email.setCustomValidity("");
