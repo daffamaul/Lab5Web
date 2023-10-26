@@ -8,8 +8,8 @@ Saya membuat pesan kustomisasi ketika:
 - Pengguna belum measukkan email
 - Pengguna tidak memasukkan format email dengan benar
 
-![schema-one](./img/Screenshot%20from%202023-10-26%2019-36-52.png)
-![schema-two](./img/Screenshot%20from%202023-10-26%2019-39-17.png)
-![schema-three](./img/Screenshot%20from%202023-10-26%2019-40-22.png)
-![schema-four](./img/Screenshot%20from%202023-10-26%2019-42-32.png)
-![schema-five](./img/Screenshot%20from%202023-10-26%2019-43-14.png)
+![schema-one](./img/scheme-one.png)
+![schema-two](./img/scheme-two.png)
+![schema-three](./img/scheme-three.png)
+![schema-four](./img/scheme-four.png)
+![schema-five](./img/scheme-five.png)
